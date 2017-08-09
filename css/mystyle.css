@@ -1,0 +1,201 @@
+@font-face{
+	font-family: myfont;
+	src: url('../fonts/constantine.ttf');
+}
+
+@font-face{
+	font-family: paragraphfont;
+	src: url('../fonts/cantora.ttf');
+}
+
+body{
+	background-color: #000;
+	
+}
+
+body {
+	font-family: paragraphfont;
+}
+
+body h1,h2,h3{
+	font-family: myfont;
+	color: #fff;
+}
+
+
+.clearfix{
+	overflow: auto
+}
+
+.navbar{
+	padding-top: 8px;
+	height: 70px;
+	
+}
+
+.my-navbar{
+	background: linear-gradient(#000000,#000000,#000000);
+	font-family: myfont;
+}
+
+.my-navbar .navbar-brand{
+	color: white;
+	font-size: 36px;
+}
+
+.my-navbar .navbar-brand:hover{
+	color: #e0e0e0;
+}
+
+.my-navbar .my-primary-menu li a{
+	font-size: 16px;
+	color: white;
+}
+
+.my-navbar .my-primary-menu li a:hover{
+	color: #e0e0e0;
+}
+
+.my-navbar .my-primary-menu .dropdown-menu a{
+	color: #1a0000;
+	font-size: 14px;
+}
+
+.carousel{
+	margin-top: 20px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.link-1:hover{
+  transition: 0.3s ease;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.arrow-up{
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #212121;
+	right:103px;
+	top: 45px;
+	display: none;
+}
+
+.login-form{
+	text-align:center;
+	position: absolute;
+	width: 250px;
+	height: auto;
+	background: #212121;
+	right:60px;
+	top: 60px;
+	border-radius: 2px;
+	border-right: 3px solid grey;
+	border-left: 3px solid grey;
+	border-bottom: 3px solid grey;
+	display: none;
+}
+
+
+.login-form form h4{
+	text-align: center;
+	font-family: paragraphfont;
+}
+
+.login-form form{
+	margin: 30px auto;
+	font-size: 14px;
+	font-family: paragraphfont;
+	color: #fff;
+	letter-spacing: 0.05em;
+}
+
+.my-login-text{
+	width: 200px;
+	height: 30px;
+	margin-top: 20px;
+	padding-left:20px;
+	background-color: #1b1b1b;
+	border:none;
+	font-family: paragraphfont;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+
+.login-form a{
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: right;
+	color: #fff;
+	text-decoration: underline;
+	font-family: paragraphfont;
+}
+
+.login-form text{
+	font-family: paragraphfont;
+}
+
+.my-login-button{
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	background-color: #1b1b1b;
+	font-family: paragraphfont;
+}
+
+.fa-unlock-alt{
+	color: #fff;
+	padding-right: 5px;
+}
+
+.fa-user-circle{
+	color: #fff;
+	padding-right: 5px;
+}
+
+.loaded-content .table{
+	background-color: white;
+}
+
+.my-sidebar ul a{
+	background-color: white;
+	color: #000;
+	border-width: 5spx;
+	border-style: ridge;
+	border-color: grey;
+}
+
+.my-sidebar-submenu li a{
+	background-color: white;
+	color: #000;
+	border-style: none;
+	text-align: center;
+}
